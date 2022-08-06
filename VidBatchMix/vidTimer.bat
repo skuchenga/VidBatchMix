@@ -5,7 +5,7 @@ REM X 4 -> 6 :::: 2
 
 
 REM --------------------------
-TIMEOUT /T 4
+TIMEOUT /T 6
 for /F "tokens=2" %%K in ('
    tasklist /FI "ImageName eq vlc.exe" /FI "Status eq Running" /FO LIST ^| findstr /B "PID:"
 ') do (
@@ -19,7 +19,7 @@ for /f "delims=" %%a in (VLC.txt) DO (
 )
 
 REM ------------------------
-TIMEOUT /T 4
+TIMEOUT /T 6
 for /F "tokens=2" %%K in ('
    tasklist /FI "ImageName eq vlc.exe" /FI "Status eq Running" /FO LIST ^| findstr /B "PID:"
 ') do (
@@ -33,7 +33,7 @@ for /f "delims=" %%a in (VLC.txt) DO (
 )
 
 REM ------------------------
-TIMEOUT /T 4
+TIMEOUT /T 6
 for /F "tokens=2" %%K in ('
    tasklist /FI "ImageName eq vlc.exe" /FI "Status eq Running" /FO LIST ^| findstr /B "PID:"
 ') do (
@@ -47,7 +47,7 @@ for /f "delims=" %%a in (VLC.txt) DO (
 )
 
 REM ------------------------
-TIMEOUT /T 4
+TIMEOUT /T 6
 for /F "tokens=2" %%K in ('
    tasklist /FI "ImageName eq vlc.exe" /FI "Status eq Running" /FO LIST ^| findstr /B "PID:"
 ') do (
@@ -61,7 +61,7 @@ for /f "delims=" %%a in (VLC.txt) DO (
 )
 
 REM ------------------------
-TIMEOUT /T 4
+TIMEOUT /T 6
 for /F "tokens=2" %%K in ('
    tasklist /FI "ImageName eq vlc.exe" /FI "Status eq Running" /FO LIST ^| findstr /B "PID:"
 ') do (
